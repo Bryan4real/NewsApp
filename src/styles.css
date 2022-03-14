@@ -8,6 +8,8 @@
 body
 {
   font-family : Arial, Helvetica, sans-serif;
+  background: rgb(247,242,127);
+  background: linear-gradient(225deg, rgba(247,242,127,1) 0%, rgba(243,255,171,1) 36%);
 }
 .box
 {
@@ -17,12 +19,14 @@ body
 {
   font-size: 18px;
 }
-#navbarNav
-{
-  float: right;
-}
+
 #navbarNav a
 {
 margin-left: 18px;
 font-weight: bold;
+}
+h4
+{
+  text-align: center;
+  float: inherit;
 }
