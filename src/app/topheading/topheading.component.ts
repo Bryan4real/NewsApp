@@ -10,6 +10,9 @@ export class TopheadingComponent implements OnInit {
 
   constructor(private _services:NewsapiservicesService) { }
 
+  //display data from the topheading endpoint 
+  topheadingDisplay:any = [];
+
   ngOnInit(): void {
 
     this._services.topHeading().subscribe((result)=>{
